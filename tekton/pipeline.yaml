@@ -62,6 +62,7 @@ spec:
       - name: args
         value: "-v --with-spec --spec-color"
       runAfter:
+<<<<<<< HEAD
         - clone
     - name: build
       workspaces:
@@ -94,3 +95,6 @@ spec:
           oc get pods -l app=accounts
       runAfter:
         - build
+=======
+        - clone
+>>>>>>> f766cd7 (Fixing code)

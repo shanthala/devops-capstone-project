@@ -49,6 +49,7 @@ spec:
           # Delete files and directories starting with .. plus any other character
           rm -rf "${WORKSPACE_SOURCE_PATH}"/..?*
         fi
+<<<<<<< HEAD
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
@@ -84,3 +85,5 @@ spec:
 
         echo "***** Running nosetests with: $(params.args)"
         nosetests $(params.args)
+=======
+>>>>>>> f766cd7 (Fixing code)
